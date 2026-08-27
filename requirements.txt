@@ -1,0 +1,28 @@
+# PSL Analytics & Match Intelligence Platform
+# Python 3.10+
+
+# ── Data ──
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+
+# ── Machine Learning ──
+scikit-learn>=1.3
+xgboost>=2.0
+
+# ── Visualization ──
+plotly>=5.18
+matplotlib>=3.7
+
+# ── Dashboard ──
+streamlit>=1.30
+
+# ── Notebooks ──
+jupyter>=1.0
+nbformat>=5.9
+
+# ── Testing ──
+pytest>=7.4
+
+# ── Utilities ──
+python-dateutil>=2.8
