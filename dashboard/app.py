@@ -1,53 +1,18 @@
-"""
-PSL Analytics & Match Intelligence — Dashboard
-
-Entry point for the Streamlit application.
-Run with: streamlit run dashboard/app.py
-"""
-
+"""PSL Analytics — Minimal test for navigation"""
 import streamlit as st
-import sys
-from pathlib import Path
 
-# Add project root to path so src modules are importable
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+st.set_page_config(page_title="PSL Analytics", page_icon="🏏", layout="wide")
 
-from src.config import DASHBOARD_TITLE, DASHBOARD_ICON, DASHBOARD_LAYOUT
+overview = st.Page("pages/0_Overview.py", title="Overview", icon="🏠", default=True)
+players = st.Page("pages/1_Player_Analytics.py", title="Player Analytics", icon="🏏")
+teams = st.Page("pages/2_Team_Analytics.py", title="Team Analytics", icon="👥")
+matchups = st.Page("pages/3_Matchups.py", title="Matchups", icon="⚔️")
+venues = st.Page("pages/4_Venue_Intelligence.py", title="Venue Intelligence", icon="🏟️")
+phases = st.Page("pages/5_Phase_Analytics.py", title="Phase Analytics", icon="⏱️")
+form = st.Page("pages/6_Player_Form.py", title="Player Form", icon="📈")
+match_intel = st.Page("pages/7_Match_Intelligence.py", title="Match Intelligence", icon="🧠")
+predictions = st.Page("pages/8_Predictions.py", title="Predictions", icon="🔮")
+clutch = st.Page("pages/9_Clutch_Pressure.py", title="Clutch & Pressure", icon="🔥")
 
-# ── Page Config ──
-st.set_page_config(
-    page_title=DASHBOARD_TITLE,
-    page_icon=DASHBOARD_ICON,
-    layout=DASHBOARD_LAYOUT,
-)
-
-# ── Main Page ──
-st.title(f"{DASHBOARD_ICON} {DASHBOARD_TITLE}")
-st.markdown("---")
-
-st.info(
-    "🚧 **Dashboard is under development.**\n\n"
-    "The data pipeline, analytics engine, and ML models are being built phase by phase.\n\n"
-    "Check back as features are added!"
-)
-
-st.markdown(
-    """
-    ### Planned Pages
-    1. **Overview** — Season summaries & key stats
-    2. **Player Analytics** — Individual performance & Impact Score
-    3. **Team Analytics** — Team strengths & comparisons
-    4. **Match Explorer** — Ball-by-ball match breakdowns
-    5. **Matchups** — Batter vs Bowler & Team vs Team
-    6. **Phase Analytics** — Powerplay / Middle / Death analysis
-    7. **Venue Intelligence** — Venue profiles & trends
-    8. **Player Form** — Rolling performance & recent form
-    9. **Match Intelligence** — Win probability & turning points
-    10. **Predictions** — Live win probability simulator
-    """
-)
-
-st.markdown("---")
-st.caption("PSL Analytics & Match Intelligence Platform • Portfolio Project")
+nav = st.navigation([overview, players, teams, matchups, venues, phases, form, match_intel, predictions, clutch])
+nav.run()

@@ -134,7 +134,8 @@ class TurningPointEngine:
     @staticmethod
     def _describe_turning_point(row) -> str:
         """Generate a human-readable description of a turning point."""
-        over_ball = f"{row['over']}.{row['ball']}"
+        # Cricket notation: overs_completed.ball (e.g. 19.4 = 20th over, 4th ball)
+        over_ball = f"{row['over'] - 1}.{row['ball']}"
         direction = "↑" if row["prob_change"] > 0 else "↓"
         pct_before = f"{row['prob_before'] * 100:.1f}%"
         pct_after = f"{row['prob_after'] * 100:.1f}%"
