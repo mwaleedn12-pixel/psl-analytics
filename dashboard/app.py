@@ -42,6 +42,7 @@ PAGES = {
     "🧩 Optimal XI": "13_Optimal_XI",
     "📜 Records": "14_Records",
     "📅 Season Explorer": "15_Season_Explorer",
+    "🏏 Team Profile": "16_Team_Profile",
 }
 
 selected = st.sidebar.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
