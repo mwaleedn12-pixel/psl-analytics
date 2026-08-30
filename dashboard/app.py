@@ -50,6 +50,12 @@ PAGES = {
     "📋 Match Explorer": "21_Match_Explorer",
     "🥇 Leaderboard": "22_Leaderboard",
     "👤 Player Profile": "23_Player_Profile",
+    "📊 Season Comparison": "24_Season_Comparison",
+    "⚡ Super Overs": "25_Super_Overs",
+    "👑 PSL History": "26_PSL_History",
+    "🏠 Home vs Away": "27_Home_Away",
+    "🚀 Powerplay Deep": "28_Powerplay_Deep",
+    "💀 Death Overs Deep": "29_Death_Deep",
 }
 
 selected = st.sidebar.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
