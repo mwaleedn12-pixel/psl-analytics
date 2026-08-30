@@ -8,9 +8,11 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
-from dashboard.components.style import inject_custom_css, hero_card, seam_divider, PLOTLY_LAYOUT, TEAM_COLORS
+from dashboard.components.style import inject_custom_css, hero_card, seam_divider, PLOTLY_LAYOUT, TEAM_COLORS, fix_metrics
+from src.analytics.squad_engine import SquadEngine
 
 inject_custom_css()
+fix_metrics()
 
 @st.cache_data
 def load_data():
@@ -52,9 +54,9 @@ c6.metric("Seasons", team_matches.psl_edition.nunique())
 
 st.markdown("---")
 
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
     "📊 Season History", "🏏 Batting", "🎯 Bowling",
-    "⏱️ Phase Wise", "🏟️ Venue Records", "⚔️ vs Opponents"
+    "⏱️ Phase Wise", "🏟️ Venue Records", "⚔️ vs Opponents", "👥 Squads"
 ])
 
 # ════════════════════════════════════════
@@ -308,3 +310,82 @@ with tab6:
     st.plotly_chart(fig, use_container_width=True)
 
     st.dataframe(opp_df, use_container_width=True, hide_index=True)
+
+# ════════════════════════════════════════
+# TAB 7: SQUADS
+# ════════════════════════════════════════
+with tab7:
+    available_seasons = SquadEngine.get_seasons_for_team(deliveries, team)
+    selected_season = st.selectbox("Select Season", available_seasons, index=len(available_seasons)-1, key="squad_season")
+
+    squad = SquadEngine.get_team_squad(deliveries, team, selected_season)
+
+    st.markdown(f"""
+    <div style="text-align:center; padding:12px; margin-bottom:16px;
+         background: linear-gradient(135deg, {tc['primary']}15, rgba(13,43,31,0.5));
+         border: 1px solid {tc['primary']}33; border-radius:14px;">
+        <span style="font-family:Oswald; color:{tc['primary']}; font-size:1.2rem; text-transform:uppercase;
+              letter-spacing:2px;">{team} — {selected_season} Squad</span>
+        <span style="font-family:'Share Tech Mono'; color:#5a8a6f; margin-left:12px;">({len(squad)} players)</span>
+    </div>""", unsafe_allow_html=True)
+
+    # Role counts
+    role_counts = squad.role.value_counts()
+    cols = st.columns(len(role_counts))
+    for i, (role, count) in enumerate(role_counts.items()):
+        cols[i].metric(role, count)
+
+    st.markdown("---")
+
+    # Player cards
+    for _, p in squad.iterrows():
+        runs = int(p.runs) if pd.notna(p.runs) else 0
+        bat_avg = f"{p.bat_avg:.1f}" if pd.notna(p.bat_avg) else "—"
+        bat_sr = f"{p.bat_sr:.1f}" if pd.notna(p.bat_sr) else "—"
+        wickets = int(p.wickets) if pd.notna(p.wickets) else 0
+        economy = f"{p.economy:.2f}" if pd.notna(p.economy) else "—"
+        matches_played = int(p.matches) if pd.notna(p.matches) else 0
+
+        role_color = "#c9f34d" if "Batter" in p.role else ("#38bdf8" if "Bowler" in p.role else "#f0b429")
+
+        bat_stats = f"Runs: {runs} | Avg: {bat_avg} | SR: {bat_sr}" if runs > 0 else ""
+        bowl_stats = f"Wkts: {wickets} | Econ: {economy}" if wickets > 0 else ""
+        stats_line = " | ".join(filter(None, [bat_stats, bowl_stats]))
+
+        st.markdown(f"""
+        <div style="background:rgba(13,43,31,0.4); border-radius:10px; padding:10px 16px; margin:4px 0;
+             border-left: 3px solid {role_color}; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+                <span style="font-family:Oswald; color:#fff; font-size:0.95rem;">{p.player}</span>
+                <span style="font-family:'Share Tech Mono'; color:{role_color}; font-size:0.75rem; margin-left:10px;">{p.role}</span>
+            </div>
+            <div style="text-align:right;">
+                <span style="font-family:'Share Tech Mono'; color:#5a8a6f; font-size:0.75rem;">
+                    {matches_played} matches | {stats_line}
+                </span>
+            </div>
+        </div>""", unsafe_allow_html=True)
+
+    # Season comparison — squad changes
+    st.markdown("---")
+    st.markdown("##### 🔄 Squad Across Seasons")
+    all_season_squads = {}
+    for s in available_seasons:
+        sq = SquadEngine.get_team_squad(deliveries, team, s)
+        all_season_squads[s] = set(sq.player.values)
+
+    # Build a table of who played in which season
+    all_players_ever = sorted(set().union(*all_season_squads.values()))
+    grid_data = []
+    for player in all_players_ever:
+        row = {"Player": player}
+        seasons_played = 0
+        for s in available_seasons:
+            row[s] = "✅" if player in all_season_squads[s] else ""
+            if player in all_season_squads[s]:
+                seasons_played += 1
+        row["Seasons"] = seasons_played
+        grid_data.append(row)
+
+    grid_df = pd.DataFrame(grid_data).sort_values("Seasons", ascending=False)
+    st.dataframe(grid_df, use_container_width=True, hide_index=True, height=400)
