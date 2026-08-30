@@ -440,3 +440,31 @@ PLOTLY_LAYOUT = dict(
 def get_team_bar_colors(teams):
     """Return list of colors matching team jerseys for bar charts."""
     return [TEAM_COLORS.get(t, {"primary": "#c9f34d"})["primary"] for t in teams]
+
+
+# Additional CSS fix for truncated metrics
+METRIC_FIX_CSS = """
+<style>
+[data-testid="stMetricLabel"] {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    min-width: 0 !important;
+}
+[data-testid="stMetricValue"] {
+    white-space: nowrap !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    font-size: 1.5rem !important;
+}
+[data-testid="stMetric"] {
+    min-width: 0 !important;
+    overflow: visible !important;
+}
+</style>
+"""
+
+def fix_metrics():
+    """Call after inject_custom_css to fix truncated metric cards."""
+    import streamlit as st
+    st.markdown(METRIC_FIX_CSS, unsafe_allow_html=True)

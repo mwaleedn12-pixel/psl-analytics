@@ -47,6 +47,9 @@ PAGES = {
     "💀 Dismissals": "18_Dismissals",
     "🤝 Partnerships": "19_Partnerships",
     "🧤 Fielding": "20_Fielding",
+    "📋 Match Explorer": "21_Match_Explorer",
+    "🥇 Leaderboard": "22_Leaderboard",
+    "👤 Player Profile": "23_Player_Profile",
 }
 
 selected = st.sidebar.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
