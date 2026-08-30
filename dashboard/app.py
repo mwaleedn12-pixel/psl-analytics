@@ -56,6 +56,17 @@ PAGES = {
     "🏠 Home vs Away": "27_Home_Away",
     "🚀 Powerplay Deep": "28_Powerplay_Deep",
     "💀 Death Overs Deep": "29_Death_Deep",
+    "🏆 Playoffs": "30_Playoffs",
+    "🔎 Search": "31_Search",
+    "🤖 AI Insights": "32_AI_Insights",
+    "🏅 Player Rankings": "33_Player_Rankings",
+    "💰 Auction Value": "34_Auction_Value",
+    "🎮 Match Simulator": "35_Match_Simulator",
+    "⚔️ H2H Deep Dive": "36_H2H_Deep",
+    "🏅 Player Rankings": "33_Player_Rankings",
+    "💰 Auction Value": "34_Auction_Value",
+    "⚔️ H2H Deep Dive": "35_H2H_Deep",
+    "🎮 Match Simulator": "36_Match_Simulator",
 }
 
 selected = st.sidebar.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
