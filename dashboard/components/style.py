@@ -468,3 +468,26 @@ def fix_metrics():
     """Call after inject_custom_css to fix truncated metric cards."""
     import streamlit as st
     st.markdown(METRIC_FIX_CSS, unsafe_allow_html=True)
+
+
+SIDEBAR_SCROLL_FIX = """
+<style>
+[data-testid="stSidebar"] > div:first-child {
+    overflow-y: auto !important;
+    max-height: 100vh !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+[data-testid="stSidebar"] [data-testid="stVerticalBlock"] {
+    overflow-y: visible !important;
+}
+
+section[data-testid="stSidebar"] {
+    overflow: auto !important;
+}
+</style>
+"""
+
+def fix_sidebar_scroll():
+    import streamlit as st
+    st.markdown(SIDEBAR_SCROLL_FIX, unsafe_allow_html=True)

@@ -1,4 +1,4 @@
-"""PSL Analytics — Dashboard with Manual Navigation"""
+"""PSL Analytics — Clean 7-Section Navigation"""
 import streamlit as st
 import sys, runpy
 from pathlib import Path
@@ -12,68 +12,57 @@ st.set_page_config(page_title="PSL Analytics", page_icon="🏏", layout="wide")
 from dashboard.components.style import inject_custom_css
 inject_custom_css()
 
+# ── Sidebar Logo ──
 st.sidebar.markdown("""
-<div style="text-align:center; padding: 16px 0;">
-    <div style="font-size: 2.5rem;">🏏</div>
-    <div style="font-family: 'Oswald', sans-serif; font-size: 1.3rem; font-weight: 700;
-         background: linear-gradient(135deg, #c9f34d, #f0b429);
-         -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-         letter-spacing: 2px; margin-top: 8px; text-transform: uppercase;">PSL Analytics</div>
-    <div style="font-family: 'Oswald'; font-size: 0.65rem; color: #3a5a4a;
-         text-transform: uppercase; letter-spacing: 3px; margin-top: 2px;">Match Intelligence</div>
+<div style="text-align:center; padding: 10px 0 5px 0;">
+    <span style="font-size: 1.8rem;">🏏</span>
+    <span style="font-family: 'Oswald', sans-serif; font-size: 1rem; font-weight: 700;
+         color: #c9f34d; letter-spacing: 2px; text-transform: uppercase; vertical-align: middle;
+         margin-left: 6px;">PSL Analytics</span>
 </div>
 """, unsafe_allow_html=True)
-st.sidebar.markdown("---")
 
-PAGES = {
-    "🏠 Overview": "0_Overview",
-    "🏏 Player Analytics": "1_Player_Analytics",
-    "👥 Team Analytics": "2_Team_Analytics",
-    "⚔️ Matchups": "3_Matchups",
-    "🏟️ Venue Intelligence": "4_Venue_Intelligence",
-    "⏱️ Phase Analytics": "5_Phase_Analytics",
-    "📈 Player Form": "6_Player_Form",
-    "🧠 Match Intelligence": "7_Match_Intelligence",
-    "🔮 Predictions": "8_Predictions",
-    "🔥 Clutch & Pressure": "9_Clutch_Pressure",
-    "🎯 Match Predictor": "10_Match_Predictor",
-    "🏆 Season Awards": "11_Season_Awards",
-    "🆚 Player Comparison": "12_Player_Comparison",
-    "🧩 Optimal XI": "13_Optimal_XI",
-    "📜 Records": "14_Records",
-    "📅 Season Explorer": "15_Season_Explorer",
-    "🏏 Team Profile": "16_Team_Profile",
-    "🎯 Chase & Defence": "17_Chase_Defence",
-    "💀 Dismissals": "18_Dismissals",
-    "🤝 Partnerships": "19_Partnerships",
-    "🧤 Fielding": "20_Fielding",
-    "📋 Match Explorer": "21_Match_Explorer",
-    "🥇 Leaderboard": "22_Leaderboard",
-    "👤 Player Profile": "23_Player_Profile",
-    "📊 Season Comparison": "24_Season_Comparison",
-    "⚡ Super Overs": "25_Super_Overs",
-    "👑 PSL History": "26_PSL_History",
-    "🏠 Home vs Away": "27_Home_Away",
-    "🚀 Powerplay Deep": "28_Powerplay_Deep",
-    "💀 Death Overs Deep": "29_Death_Deep",
-    "🏆 Playoffs": "30_Playoffs",
-    "🔎 Search": "31_Search",
-    "🤖 AI Insights": "32_AI_Insights",
-    "🏅 Player Rankings": "33_Player_Rankings",
-    "💰 Auction Value": "34_Auction_Value",
-    "🎮 Match Simulator": "35_Match_Simulator",
-    "⚔️ H2H Deep Dive": "36_H2H_Deep",
-    "🏅 Player Rankings": "33_Player_Rankings",
-    "💰 Auction Value": "34_Auction_Value",
-    "⚔️ H2H Deep Dive": "35_H2H_Deep",
-    "🎮 Match Simulator": "36_Match_Simulator",
+# ── 7 Main Sections ──
+SECTIONS = {
+    "🏠 Overview":       ["Overview", "Search", "AI Insights"],
+    "👤 Players":        ["Player Profile", "Player Analytics", "Player Form", "Player Rankings", "Player Comparison", "Auction Value"],
+    "👥 Teams":          ["Team Profile", "Team Analytics", "Home vs Away", "Optimal XI"],
+    "📋 Matches":        ["Match Explorer", "Match Intelligence", "Match Predictor", "Match Simulator"],
+    "📊 Analytics":      ["Phase Analytics", "Powerplay Deep", "Death Overs Deep", "Venue Intelligence", "Chase Defence", "Dismissals", "Partnerships", "Fielding", "Clutch Pressure"],
+    "⚔️ Matchups":       ["Matchups", "H2H Deep Dive"],
+    "🏆 Tournaments":    ["Season Explorer", "Season Comparison", "Season Awards", "PSL History", "Playoffs", "Super Overs", "Records", "Leaderboard"],
 }
 
-selected = st.sidebar.radio("Navigate", list(PAGES.keys()), label_visibility="collapsed")
+# Page file mapping
+PAGE_FILES = {
+    "Overview": "0_Overview", "Search": "31_Search", "AI Insights": "32_AI_Insights",
+    "Player Profile": "23_Player_Profile", "Player Analytics": "1_Player_Analytics",
+    "Player Form": "6_Player_Form", "Player Rankings": "33_Player_Rankings",
+    "Player Comparison": "12_Player_Comparison", "Auction Value": "34_Auction_Value",
+    "Team Profile": "16_Team_Profile", "Team Analytics": "2_Team_Analytics",
+    "Home vs Away": "27_Home_Away", "Optimal XI": "13_Optimal_XI",
+    "Match Explorer": "21_Match_Explorer", "Match Intelligence": "7_Match_Intelligence",
+    "Match Predictor": "10_Match_Predictor", "Match Simulator": "35_Match_Simulator",
+    "Phase Analytics": "5_Phase_Analytics", "Powerplay Deep": "28_Powerplay_Deep",
+    "Death Overs Deep": "29_Death_Deep", "Venue Intelligence": "4_Venue_Intelligence",
+    "Chase Defence": "17_Chase_Defence", "Dismissals": "18_Dismissals",
+    "Partnerships": "19_Partnerships", "Fielding": "20_Fielding",
+    "Clutch Pressure": "9_Clutch_Pressure",
+    "Matchups": "3_Matchups", "H2H Deep Dive": "36_H2H_Deep",
+    "Season Explorer": "15_Season_Explorer", "Season Comparison": "24_Season_Comparison",
+    "Season Awards": "11_Season_Awards", "PSL History": "26_PSL_History",
+    "Playoffs": "30_Playoffs", "Super Overs": "25_Super_Overs",
+    "Records": "14_Records", "Leaderboard": "22_Leaderboard",
+}
+
+# ── Navigation ──
+section = st.sidebar.selectbox("", list(SECTIONS.keys()), label_visibility="collapsed")
+sub_pages = SECTIONS[section]
+page = st.sidebar.selectbox("", sub_pages, label_visibility="collapsed")
 
 st.sidebar.markdown("---")
-st.sidebar.caption("🏟️ 357 Matches • 83,799 Balls • 11 Seasons")
+st.sidebar.caption("357 Matches • 83,799 Balls • 11 Seasons")
 
-# Load selected page using runpy (proper __file__ handling)
-page_file = str(Path(__file__).parent / "pages" / (PAGES[selected] + ".py"))
+# ── Load Page ──
+page_file = str(Path(__file__).parent / "views" / (PAGE_FILES[page] + ".py"))
 runpy.run_path(page_file, run_name="__main__")
