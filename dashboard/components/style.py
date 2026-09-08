@@ -268,7 +268,22 @@ def inject_custom_css():
     /* ══ HIDE BRANDING ══ */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
+    header[data-testid="stHeader"] {background: transparent !important; backdrop-filter: none !important;}
+
+    /* ══ FORCE SIDEBAR ALWAYS VISIBLE ══ */
+    [data-testid="stSidebar"] {
+        min-width: 280px !important;
+        width: 280px !important;
+        transform: none !important;
+        position: relative !important;
+        transition: none !important;
+    }
+    [data-testid="stSidebar"] > div:first-child {
+        width: 280px !important;
+    }
+    [data-testid="collapsedControl"] {
+        display: none !important;
+    }
 
     /* ══ ANIMATIONS ══ */
     @keyframes fadeUp {

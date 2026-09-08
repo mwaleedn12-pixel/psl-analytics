@@ -1,0 +1,904 @@
+Sr_No	Full_Name	Country	Player_Role	Batting_Style	Bowling_Style	Base_Price
+1	Aaron Hardie	Australia	All Rounder	Right Hand Bat	Right-Arm Medium Fast	42000000
+2	Adam Zampa	Australia	Bowler	Right Hand Bat	Right-Arm Legspin	42000000
+3	Ashton Turner	Australia	Batter	Right Hand Bat	Right-Arm Offspin	42000000
+4	David Warner	Australia	Batter	Left Hand Bat	Right-Arm Medium	42000000
+5	Riley Meredith	Australia	Bowler	Right Hand Bat	Right-Arm Fast	42000000
+6	Chris Jordan	England	Bowler	Right Hand Bat	Right-Arm Fast	42000000
+7	David Willey	England	All Rounder	Left Hand Bat	Left-Arm Fast	42000000
+8	Joe Clarke	England	Wicketkeeper Batter	Right Hand Bat	Not Applicable	42000000
+9	Liam Dawson	England	All Rounder	Right Hand Bat	Slow left-arm orthodox	42000000
+10	Tom Curran	England	All Rounder	Right Hand Bat	Right-Arm Medium Fast	42000000
+11	Sandeep Lamichanne	Nepal	Bowler	Right Hand Bat	Right-Arm Legspin	42000000
+12	Daryl Mitchell	New Zealand	Batter	Right Hand Bat	Right-Arm Medium Fast	42000000
+13	Mark Chapman	New Zealand	Batter	Left Hand Bat	Slow left-arm orthodox	42000000
+14	Michael Bracewell	New Zealand	All Rounder	Left Hand Bat	Right-Arm Offspin	42000000
+15	Rilee Rossouw	South Africa	Batter	Left Hand Bat	Right-Arm Offspin	42000000
+16	Alzarri Joseph	West Indies	Bowler	Right Hand Bat	Right-Arm Medium Fast	42000000
+17	Jake Fraser-McGurk	Australia	Batter	Right Hand Bat	Right-Arm Offspin	42000000
+18	William Sutherland	Australia	All Rounder	Right Hand Bat	Right-Arm Fast	42000000
+19	James Vince	England	Batter	Right Hand Bat	Right-Arm Medium	42000000
+20	Imad Wasim	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	42000000
+21	Mohammad Amir	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	42000000
+22	Rassie Van Der Dussen	South Africa	Batter	Right Hand Bat	Right-Arm Legspin	42000000
+23	Reeza Hendricks	South Africa	Batter	Right Hand Bat	Right-Arm Offspin	42000000
+24	Dasun Shanaka	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Medium Fast	42000000
+25	Kusal Mendis	Sri Lanka	Wicketkeeper Batter	Right Hand Bat	Right-Arm Legspin	42000000
+26	Evin Lewis	West Indies	Batter	Left Hand Bat	Right-Arm Medium	42000000
+27	Brandon King	West Indies	Batter	Right Hand Bat	Right-Arm Offspin	42000000
+28	Faheem Ashraf	Pakistan	All Rounder	Left Hand Bat	Right-Arm Medium Fast	42000000
+29	Fakhar Zaman	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	42000000
+30	Haris Rauf	Pakistan	Bowler	Right Hand Bat	Right-Arm Fast	42000000
+31	Mohammad Rizwan	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	42000000
+32	Naseem Shah	Pakistan	Bowler	Right Hand Bat	Right-Arm Fast	42000000
+33	Sahibzada Farhan	Pakistan	Batter	Right Hand Bat	Not Applicable	42000000
+34	Salman Ali Agha	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	42000000
+35	Daniel Sams	Australia	All Rounder	Right Hand Bat	Left-Arm Fast	22000000
+36	Jake Weatherald	Australia	Batter	Left Hand Bat	Right-Arm Legspin	22000000
+37	Jason Behrendorff	Australia	Bowler	Right Hand Bat	Left-Arm Fast	22000000
+38	Moises Henriques	Australia	All Rounder	Right Hand Bat	Right-Arm Medium Fast	22000000
+39	Peter Siddle	Australia	Bowler	Right Hand Bat	Right-Arm Fast	22000000
+40	Usman Khawaja	Australia	Batter	Left Hand Bat	Right-Arm Offspin	22000000
+41	Shakib Al Hasan	Bangladesh	All Rounder	Left Hand Bat	Slow left-arm orthodox	22000000
+42	Sam Billings	England	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium	22000000
+43	Tymal Mills	England	Bowler	Right Hand Bat	Left-Arm Fast	22000000
+44	Colin Munro	New Zealand	Batter	Left Hand Bat	Right-Arm Medium	22000000
+45	Jimmy Neesham	New Zealand	All Rounder	Left Hand Bat	Right-Arm Medium Fast	22000000
+46	Mitchell Hay	New Zealand	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	22000000
+47	Keshav Maharaj	South Africa	Bowler	Right Hand Bat	Slow left-arm orthodox	22000000
+48	Tabraiz Shamsi	South Africa	Bowler	Right Hand Bat	Slow left-arm wrist spin	22000000
+49	Charith Asalanka	Sri Lanka	All Rounder	Left Hand Bat	Right-Arm Offspin	22000000
+50	Kusal Perera	Sri Lanka	Wicketkeeper Batter	Left Hand Bat	Slow left-arm orthodox	22000000
+51	Jayden Seales	West Indies	Bowler	Left Hand Bat	Right-Arm Fast	22000000
+52	Matthew Forde	West Indies	Bowler	Right Hand Bat	Right-Arm Medium	22000000
+53	Tanveer Sangha	Australia	Bowler	Right Hand Bat	Right-Arm Legspin	22000000
+54	Josh Philippe	Australia	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	22000000
+55	Matthew Kuhnemann	Australia	Bowler	Left Hand Bat	Slow left-arm orthodox	22000000
+56	Mushfiqur Rahim	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	22000000
+57	Dawid Malan	England	Batter	Left Hand Bat	Slow left-arm orthodox	22000000
+58	Jason Roy	England	Batter	Right Hand Bat	Right-Arm Offspin	22000000
+59	Reece Topley	England	Bowler	Right Hand Bat	Left-Arm Fast	22000000
+60	Richard Gleeson	England	Bowler	Right Hand Bat	Right-Arm Fast	22000000
+61	Saqib Mahmood	England	Bowler	Right Hand Bat	Right-Arm Fast	22000000
+62	William Smeed	England	Batter	Right Hand Bat	Right-Arm Offspin	22000000
+63	Blair Tickner	New Zealand	Bowler	Right Hand Bat	Right-Arm Fast	22000000
+64	Thomas Charles Bruce	New Zealand	Batter	Right Hand Bat	Right-Arm Offspin	22000000
+65	Tom Latham	New Zealand	Wicketkeeper Batter	Left Hand Bat	Right-Arm Medium	22000000
+66	Imran Tahir	South Africa	Bowler	Right Hand Bat	Right-Arm Legspin	22000000
+67	Angelo Mathews	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Medium Fast	22000000
+68	Asitha Fernando	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Fast	22000000
+69	Avishka Fernando	Sri Lanka	Batter	Right Hand Bat	Right-Arm Offspin	22000000
+70	Dilshan Madushanka	Sri Lanka	Bowler	Right Hand Bat	Left-Arm Fast	22000000
+71	Janith Liyanage	Sri Lanka	Batter	Right Hand Bat	Right-Arm Medium	22000000
+72	Pramod Madushan	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Medium Fast	22000000
+73	John Campbell	West Indies	Batter	Left Hand Bat	Right-Arm Offspin	22000000
+74	Johnson Charles	West Indies	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium	22000000
+75	Rahkeem Cornwall	West Indies	All Rounder	Right Hand Bat	Right-Arm Offspin	22000000
+76	Md Zakir Hasan	Bangladesh	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	22000000
+77	Jeremy Gordon	Canada	Bowler	Right Hand Bat	Right-Arm Medium Fast	22000000
+78	Danial Kashif	England	All Rounder	Right Hand Bat	Right-Arm Medium Fast	22000000
+79	Michael Rippon	New Zealand	All Rounder	Right Hand Bat	Slow left-arm wrist spin	22000000
+80	Iftikhar Ahmed	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	22000000
+81	Mohammad Wasim Jnr	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	22000000
+82	Saud Shakeel	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	22000000
+83	Shan Masood	Pakistan	Batter	Left Hand Bat	Right-Arm Medium Fast	22000000
+84	Usama Mir	Pakistan	All Rounder	Right Hand Bat	Right-arm Legspin	22000000
+85	Dian Forrester	South Africa	All Rounder	Left Hand Bat	Right-Arm Medium Fast	22000000
+86	Evan Jones	South Africa	All Rounder	Right Hand Bat	Right-Arm Medium Fast	22000000
+87	Gideon Peters	South Africa	Bowler	Right Hand Bat	Right-Arm Fast	22000000
+88	Rubin Hermann	South Africa	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	22000000
+89	Thomas Kaber	South Africa	All Rounder	Right Hand Bat	Slow left-arm wrist spin	22000000
+90	Tristan Luus	South Africa	Bowler	Right Hand Bat	Right-Arm Medium Fast	22000000
+91	Yasir Muhammad	United States of America	Bowler	Left Hand Bat	Right-Arm Legspin	22000000
+92	Ackeem Auguste	West Indies	Batter	Left Hand Bat	Right-Arm Legspin	22000000
+93	Kadeem Alleyne	West Indies	All Rounder	Right Hand Bat	Right-Arm Medium	22000000
+94	Odean Smith	West Indies	All Rounder	Right Hand Bat	Right-Arm Fast	22000000
+95	Ryan Burl	Zimbabwe	All Rounder	Left Hand Bat	Slow left-arm wrist spin	22000000
+96	Amir Hamza Hotak	Afghanistan	Bowler	Right Hand Bat	Slow left-arm orthodox	11000000
+97	Fareed Malik	Afghanistan	Bowler	Left Hand Bat	Left-Arm Fast	11000000
+98	Asthon Agar	Australia	Bowler	Left Hand Bat	Slow left-arm orthodox	11000000
+99	Ben Mcdermott	Australia	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium	11000000
+100	Chris Green	Australia	Bowler	Right Hand Bat	Right-Arm Offspin	11000000
+101	Chris Lynn	Australia	Batter	Right Hand Bat	Slow left-arm orthodox	11000000
+102	D'Arcy Short	Australia	All Rounder	Left Hand Bat	Slow left-arm wrist spin	11000000
+103	Gurinder Sandhu	Australia	Bowler	Left Hand Bat	Right-Arm Fast	11000000
+104	Henry Thornton	Australia	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+105	Jack Wildermuth	Australia	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+106	Joshua Brown	Australia	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+107	Liam Scott	Australia	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+108	Mark Steketee	Australia	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+109	Nathan Mcandrew	Australia	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+110	Todd Murphy	Australia	Bowler	Left Hand Bat	Right-Arm Offspin	11000000
+111	Rishad Hossain	Bangladesh	Bowler	Right Hand Bat	Right-Arm Legspin	11000000
+112	George Garton	England	All Rounder	Left Hand Bat	Left-Arm Fast	11000000
+113	Laurie Evans	England	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+114	Tom Moores	England	Wicketkeeper Batter	Left Hand Bat	Right-Arm Medium	11000000
+115	Arjun Saud	Nepal	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+116	Scott Kuggeleijn	New Zealand	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+117	Will Young	New Zealand	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+118	Ottneil Baartman	South Africa	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+119	Senuran Muthusamy	South Africa	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+120	Bhanuka Rajapaksa	Sri Lanka	Wicketkeeper Batter	Left Hand Bat	Right-Arm Medium	11000000
+121	Binura Fernando	Sri Lanka	All Rounder	Right Hand Bat	Left-Arm Medium Fast	11000000
+122	Dhananjaya De Silva	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+123	Dinesh Chandimal	Sri Lanka	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+124	Niroshan Dickwella	Sri Lanka	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	11000000
+125	Muhammad Rohid Khan	United Arab Emirates	Bowler	Right Hand Bat	Left-Arm Fast	11000000
+126	Muhammad Waseem	United Arab Emirates	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+127	Andries Gous	United States of America	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+128	Hassan Khan	United States of America	All Rounder	Right Hand Bat	Slow left-arm orthodox	11000000
+129	Alick Athanaze	West Indies	Batter	Left Hand Bat	Right-Arm Offspin	11000000
+130	Andre Fletcher	West Indies	Batter	Right Hand Bat	Right-Arm Medium	11000000
+131	Fabian Allen	West Indies	All Rounder	Right Hand Bat	Slow left-arm orthodox	11000000
+132	Gudakesh Motie	West Indies	Bowler	Left Hand Bat	Slow left-arm orthodox	11000000
+133	Keemo Paul	West Indies	All Rounder	Right Hand Bat	Right-Arm Fast	11000000
+134	Kyle Mayers	West Indies	Batter	Left Hand Bat	Right-Arm Medium	11000000
+135	Shamar Joseph	West Indies	Bowler	Left Hand Bat	Right-Arm Fast	11000000
+136	Blessing Muzarabani	Zimbabwe	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+137	Sharafuddin Ashraf	Afghanistan	All Rounder	Right Hand Bat	Slow left-arm orthodox	11000000
+138	Wafadar Momand	Afghanistan	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+139	Zia Ur Rahman Sharifi	Afghanistan	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+140	Hilton Cartwright	Australia	All Rounder	Right Hand Bat	Right-Arm Medium	11000000
+141	Roman Safi	Australia	All Rounder	Right Hand Bat	Left-Arm Medium Fast	11000000
+142	Hasan Mahmud	Bangladesh	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+143	Jishan Alam	Bangladesh	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+144	Litton Kumer Das	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+145	Mahfuzur Rahman Rabby	Bangladesh	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+146	Mahmudul Hasan Joy	Bangladesh	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+147	Md Nahid Rana	Bangladesh	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+148	Md Tanvir Islam	Bangladesh	Bowler	Left Hand Bat	Slow left-arm orthodox	11000000
+149	Mehidy Hasan Miraz	Bangladesh	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+150	Musaddek Hossain Saikat	Bangladesh	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+151	Najmul Hossain Shanto	Bangladesh	Batter	Left Hand Bat	Right-Arm Offspin	11000000
+152	Parvez Hossain Emon	Bangladesh	Wicketkeeper Batter	Left Hand Bat	Slow left-arm orthodox	11000000
+153	Quazi Nurul Hasan Sohan	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+154	Ripon Mondol	Bangladesh	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+155	Shak Mahedi Hasan	Bangladesh	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+156	Shamim Hossain	Bangladesh	Batter	Left Hand Bat	Right-Arm Offspin	11000000
+157	Shoriful Islam	Bangladesh	Bowler	Left Hand Bat	Left-Arm Medium Fast	11000000
+158	Taijul Islam	Bangladesh	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+159	Tanzid Hasan Tamim	Bangladesh	Batter	Left Hand Bat	Right-Arm Offspin	11000000
+160	Taskin Ahmed	Bangladesh	Bowler	Left Hand Bat	Right-Arm Fast	11000000
+161	Tawhid Hridoy	Bangladesh	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+162	Yasir Ali Chowdhury	Bangladesh	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+163	Walid Sahibzada	Belgium	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+164	Kaleem Sana	Canada	Bowler	Right Hand Bat	Left-Arm Fast	11000000
+165	Benny Howell	England	All Rounder	Right Hand Bat	Right-Arm Medium	11000000
+166	Syed Aziz Bin Syed Mubarak	Malaysia	All Rounder	Left Hand Bat	Right-Arm Medium	11000000
+167	Dev Khanal	Nepal	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+168	Chad Bowes	New Zealand	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+169	Max Chu	New Zealand	Batter	Left Hand Bat	Right-Arm Offspin	11000000
+170	Nathan Smith	New Zealand	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+171	Aamer Yamin	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+172	Aamir Jamal	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+173	Abid Ali	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	11000000
+174	Arafat Minhas	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+175	Arshad Iqbal	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+176	Asif Afridi	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+177	Asif Ali	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+178	Azam Khan	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	11000000
+179	Bilawal Bhatti	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+180	Danish Aziz	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+181	Faisal Akram	Pakistan	Bowler	Left Hand Bat	Left-arm wrist spin	11000000
+182	Haider Ali	Pakistan	Batter	Right Hand Bat	Not Applicable	11000000
+183	Haseebullah Khan	Pakistan	Wicketkeeper Batter	Left Hand Bat	Not Applicable	11000000
+184	Hussain Talat	Pakistan	All Rounder	Left Hand Bat	Right-Arm Medium	11000000
+185	Ihsanullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+186	Imam-ul-Haq	Pakistan	Batter	Left Hand Bat	Right-arm Legspin	11000000
+187	Imran Butt	Pakistan	Batter	Right Hand Bat	Not Applicable	11000000
+188	Irfan Khan Niazi	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	11000000
+189	Jahandad Khan	Pakistan	All Rounder	Right Hand Bat	Left-Arm Medium Fast	11000000
+190	Kamran Ghulam	Pakistan	Batter	Right Hand Bat	Slow left-arm orthodox	11000000
+191	Khawaja Mohammad Nafay	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	11000000
+192	Khurram Shahzad	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+193	Mir Hamza	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	11000000
+194	Mirza Tahir Baig	Pakistan	Batter	Right Hand Bat	Not Applicable	11000000
+195	Mohammad Abbas	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+196	Mohammad Ali	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+197	Mohammad Haris	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	11000000
+198	Mohammad Hasnain	Pakistan	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+199	Mubasir Khan	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+200	Musa Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+201	Omair bin Yousuf	Pakistan	Batter	Right Hand Bat	Not Applicable	11000000
+202	Qasim Akram	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+203	Rohail Nazir	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	11000000
+204	Rumman Raees	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	11000000
+205	Saad Nasim	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	11000000
+206	Sajid Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	11000000
+207	Shahnawaz Dahani	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+208	Sharjeel Khan	Pakistan	Batter	Left Hand Bat	Not Applicable	11000000
+209	Tayyab Tahir	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	11000000
+210	Umar Amin	Pakistan	Batter	Left Hand Bat	Right-Arm Medium Fast	11000000
+211	Umar Akmal	Pakistan	Batter	Right Hand Bat	Not Applicable	11000000
+212	Usman Salahuddin	Pakistan	Batter	Right Hand Bat	Not Applicable	11000000
+213	Zafar Gohar	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+214	Zahid Mehmood	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	11000000
+215	Zaman Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+216	Dwaine Pretorius	South Africa	All Rounder	Right Hand Bat	Right-Arm Medium Fast	11000000
+217	Gomolemo Phiri	South Africa	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+218	Jason Smith	South Africa	All Rounder	Right Hand Bat	Right-Arm Medium	11000000
+219	Lizaad Williams	South Africa	Bowler	Right Hand Bat	Right-Arm Medium Fast	11000000
+220	Marchant De Lange	South Africa	Bowler	Right Hand Bat	Right-Arm Fast	11000000
+221	Tony De Zorzi	South Africa	Batter	Left Hand Bat	Slow left-arm orthodox	11000000
+222	Dhananjaya De Silva	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Offspin	11000000
+223	Dushan Hemantha	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Legspin	11000000
+224	Vijayakanth Viyaskantha	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Legspin	11000000
+225	Abdul Shakoor Sher Muhammad	United Arab Emirates	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	11000000
+226	Amjad Khan	United Arab Emirates	All Rounder	Right Hand Bat	Right-Arm Legspin	11000000
+227	Shadley Van Schalkwyk	United States of America	All Rounder	Left Hand Bat	Right-Arm Medium	11000000
+228	Amir Jangoo	West Indies	Wicketkeeper Batter	Left Hand Bat	Slow left-arm wrist spin	11000000
+229	Jediah Blades	West Indies	Bowler	Right Hand Bat	Left-Arm Fast	11000000
+230	Jermaine Blackwood	West Indies	Batter	Right Hand Bat	Right-Arm Offspin	11000000
+231	Jewel Andrew	West Indies	Wicketkeeper Batter	Right Hand Bat	Right-Arm Legspin	11000000
+232	Karima Gore	West Indies	All Rounder	Right Hand Bat	Slow left-arm orthodox	11000000
+233	Keacy Carty	West Indies	Batter	Right Hand Bat	Right-Arm Medium	11000000
+234	Khary Pierre	West Indies	All Rounder	Left Hand Bat	Slow left-arm orthodox	11000000
+235	Navin Bidaisee	West Indies	All Rounder	Left Hand Bat	Right-Arm Legspin	11000000
+236	Abdollah Ahmadzai	Afghanistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+237	Aftab Alam	Afghanistan	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+238	Aqil Khan Obaid	Afghanistan	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+239	Barkat Ibrahimzai	Afghanistan	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+240	Bilal Sami	Afghanistan	Bowler	Right Hand Bat	Right-Arm Medium	6000000
+241	Dawlat Khan Zadran	Afghanistan	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+242	Faridoon Dawoodzai	Afghanistan	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+243	Farmanullah Safi	Afghanistan	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+244	Hassan Eisakhil	Afghanistan	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+245	Hazratullah Zazai	Afghanistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+246	Ijaz Ahmedzai	Afghanistan	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+247	Ikram Alikhil	Afghanistan	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	6000000
+248	Imran Mir	Afghanistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+249	Izharulhaq Naveed	Afghanistan	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+250	Mohammad Ibrahim	Afghanistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+251	Mohammad Ishaq	Afghanistan	Wicketkeeper Batter	Right Hand Bat	Right-Arm Fast	6000000
+252	Mohammad Shehzad	Afghanistan	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+253	Naveed Zadran	Afghanistan	Bowler	Right Hand Bat	Right-Arm Medium	6000000
+254	Nijat Masood	Afghanistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+255	Nooristani Omarzai	Afghanistan	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+256	Qais Ahmad	Afghanistan	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+257	Said Bahir Shah Mahboob	Afghanistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+258	Shafiqullah Ghafari	Afghanistan	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+259	Wahidullah Zadran	Afghanistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+260	Waqarullah Ishaq	Afghanistan	All Rounder	Right Hand Bat	Slow left-arm wrist spin	6000000
+261	Yama Arab	Afghanistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+262	Ziaur Rahman Sharifi	Afghanistan	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+263	Zubairullah Akbari	Afghanistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+264	Alex Ross	Australia	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+265	Baxter Holt	Australia	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+266	Ben Dunk	Australia	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	6000000
+267	Ben Manenti	Australia	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+268	Benjamin Cutting	Australia	Batter	Right Hand Bat	Right-Arm Medium	6000000
+269	Billy Stanlake	Australia	Bowler	Left Hand Bat	Right-Arm Fast	6000000
+270	Brody Couch	Australia	Bowler	Left Hand Bat	Right-Arm Fast	6000000
+271	Hamish Mckenzie	Australia	All Rounder	Left Hand Bat	Slow left-arm wrist spin	6000000
+272	Hayden Kerr	Australia	All Rounder	Right Hand Bat	Left-Arm Medium Fast	6000000
+273	James Seymour	Australia	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+274	Joe Burns	Australia	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+275	Joshua Kann	Australia	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+276	Lachlan Bangs	Australia	All Rounder	Left Hand Bat	Left-Arm Medium Fast	6000000
+277	Lachlan Shaw	Australia	Wicketkeeper Batter	Right Hand Bat	Slow left-arm orthodox	6000000
+278	Lloyd Pope	Australia	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+279	Mackenzie Harvey	Australia	Wicketkeeper Batter	Left Hand Bat	Right-Arm Medium	6000000
+280	Marcus Bean	Australia	Bowler	Left Hand Bat	Left-Arm Fast	6000000
+281	Max Bryant	Australia	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+282	Nick Hobson	Australia	Batter	Left Hand Bat	Right-Arm Medium	6000000
+283	Oliver Patterson	Australia	Bowler	Right Hand Bat	Left-Arm Fast	6000000
+284	Patrick Dooley	Australia	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+285	Peter Hatzoglou	Australia	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+286	Riley Kingsell	Australia	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+287	Ruwantha Kellepotha	Australia	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+288	Samuel Harper	Australia	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+289	Samuel Heazlett	Australia	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+290	Thomas Rogers	Australia	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+291	Thomas Rogers	Australia	Batter	Left Hand Bat	Right-Arm Legspin	6000000
+292	Wes Agar	Australia	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+293	William Bosisto	Australia	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+294	Abdul Gaffar Saqlain	Bangladesh	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+295	Abu Haider Rony	Bangladesh	Bowler	Right Hand Bat	Left-Arm Medium	6000000
+296	Afif Hossain	Bangladesh	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+297	Ahrar Amin	Bangladesh	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+298	Akbar Ali	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+299	Aliss Al Islam	Bangladesh	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+300	Ariful Islam	Bangladesh	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+301	Ariful Islam	Bangladesh	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+302	Jaker Ali	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium	6000000
+303	Khaled Ahmed	Bangladesh	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+304	Mahidul Islam Ankon	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+305	Md Nasir Hossain	Bangladesh	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+306	Md Sabbir Rahman Roman	Bangladesh	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+307	Meherob Hasan	Bangladesh	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+308	Mohammad Mahfijul Islam	Bangladesh	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+309	Mohammad Mrittunjoy Chowdhury Nipun	Bangladesh	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+310	Mohammad Naim Sheikh	Bangladesh	Batter	Left Hand Bat	Left-Arm Medium	6000000
+311	Mohammad Saifuddin	Bangladesh	All Rounder	Left Hand Bat	Right-Arm Fast	6000000
+312	Mukidul Islam	Bangladesh	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+313	Nasum Ahmed	Bangladesh	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+314	Nayeem Hasan	Bangladesh	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+315	Rakibul Hasan	Bangladesh	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+316	Rony Talukdar	Bangladesh	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium	6000000
+317	Saif Hassan	Bangladesh	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+318	Shohidul Islam	Bangladesh	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+319	Soumya Sarkar	Bangladesh	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+320	Tanzim Hasan Sakib	Bangladesh	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+321	Wasi Siddiquee	Bangladesh	All Rounder	Left Hand Bat	Right-Arm Legspin	6000000
+322	Aziz Mohammad Babakrkhail	Belgium	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+323	Burhan Niaz	Belgium	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+324	Hadisullah Tarakhel	Belgium	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+325	Khalid Ahmadi	Belgium	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+326	Mansoor Malangzai	Belgium	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+327	Muneeb Muhammad	Belgium	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+328	Saber Zakhil	Belgium	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+329	Sefat Shagharai	Belgium	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+330	Sultan Diwan Ali	Belgium	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+331	Ansh Patel	Canada	Bowler	Right Hand Bat	Slow left-arm wrist spin	6000000
+332	Hamza Tariq	Canada	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+333	Harsh Thaker	Canada	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+334	Adam Rossington	England	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+335	Archie Lenham	England	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+336	Cameron Hemp	England	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+337	Jack Jarvis	England	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+338	Jack Taylor	England	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+339	Jake Lintott	England	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+340	Jamal Richards	England	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+341	Kashif Ali	England	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+342	Nathan Sowter	England	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+343	Ross Whiteley	England	Batter	Left Hand Bat	Left-Arm Medium	6000000
+344	Samit Patel	England	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+345	Nizakat Khan	Hong Kong	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+346	Zeeshan Ali	Hong Kong	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+347	Barry McCarthy	Ireland	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+348	Ben Calitz	Ireland	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+349	Curtis Campher	Ireland	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+350	Gareth Delany	Ireland	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+351	George Dockrell	Ireland	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+352	Harry Tector	Ireland	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+353	Jordan Neill	Ireland	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+354	Joshua Little	Ireland	Bowler	Right Hand Bat	Left-Arm Fast	6000000
+355	Lorcan Tucker	Ireland	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+356	Mark Adair	Ireland	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+357	Matthew Humphreys	Ireland	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+358	Morgan Topping	Ireland	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+359	Paul Stirling	Ireland	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+360	Ross Adair	Ireland	Batter	Right Hand Bat	Slow left-arm orthodox	6000000
+361	Zain Ul Hassan	Ireland	All Rounder	Left Hand Bat	Right-Arm Medium	6000000
+362	Ali Hasan	Italy	All Rounder	Left Hand Bat	Left-Arm Fast	6000000
+363	Crishan Kalugamage	Italy	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+364	Harry Manenti	Italy	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+365	Jaspreet Singh	Italy	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+366	Syed Zain Abbas Naqvi	Italy	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+367	Syed Zain Abbas Naqvi	Italy	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+368	Thomas Draca	Italy	All Rounder	Right Hand Bat	Right-Arm Fast	6000000
+369	Zain Ali	Italy	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+370	Moazzam Ali Baig	Malawi	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+371	Sami Sohail	Malawi	Batter	Right Hand Bat	Right-Arm Medium	6000000
+372	Virandeep Singh	Malaysia	Wicketkeeper Batter	Right Hand Bat	Slow left-arm orthodox	6000000
+373	Gerhard Erasmus	Namibia	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+374	Jan Frylinck	Namibia	All Rounder	Left Hand Bat	Left-Arm Medium	6000000
+375	Jan Nicol Loftie-Eaton	Namibia	All Rounder	Left Hand Bat	Right-Arm Legspin	6000000
+376	Johannes Jonathan Smit	Namibia	All Rounder	Right Hand Bat	Left-Arm Medium Fast	6000000
+377	Ruben Trumpelmann	Namibia	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+378	Bipin Sharma	Nepal	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+379	Dipendra Singh Airee	Nepal	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+380	Gulshan Kumar Jha	Nepal	All Rounder	Left Hand Bat	Right-Arm Medium	6000000
+381	Md Aasif Sheikh	Nepal	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+382	Md Arif Sheikh	Nepal	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+383	Sher Malla	Nepal	Bowler	Left Hand Bat	Right-Arm Offspin	6000000
+384	Sompal Kami	Nepal	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+385	Bas De Leede	Netherlands	Batter	Right Hand Bat	Right-Arm Medium	6000000
+386	Fred Klaassen	Netherlands	Bowler	Right Hand Bat	Left-Arm Fast	6000000
+387	Kyle Klein	Netherlands	Bowler	Right Hand Bat	Right-Arm Medium	6000000
+388	Maxwell O'Dowd	Netherlands	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+389	Michael Levitt	Netherlands	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+390	Noah Croes	Netherlands	Batter	Right Hand Bat	Left-Arm Medium	6000000
+391	Paul Van Meekeren	Netherlands	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+392	Scott Edwards	Netherlands	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+393	Tim Pringle	Netherlands	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+394	Angus Oliver	New Zealand	Batter	Right Hand Bat	Right-Arm Medium	6000000
+395	Angus Schaw	New Zealand	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+396	Benjamin Lister	New Zealand	Bowler	Right Hand Bat	Left-Arm Fast	6000000
+397	Bevon Jacobs	New Zealand	Batter	Right Hand Bat	Right-Arm Medium	6000000
+398	Brett Hampton	New Zealand	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+399	Cam Fletcher	New Zealand	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium	6000000
+400	Cole Mcconchie	New Zealand	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+401	Colin De Grandhomme	New Zealand	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+402	Curtis Heaphy	New Zealand	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+403	Dale Phillips	New Zealand	Batter	Right Hand Bat	Right-Arm Medium	6000000
+404	Dean Foxcroft	New Zealand	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+405	Henry Nicholls	New Zealand	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+406	Ish Sodhi	New Zealand	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+407	Jamal Todd	New Zealand	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+408	Josh Clarkson	New Zealand	Batter	Right Hand Bat	Right-Arm Medium	6000000
+409	Katene Clarke	New Zealand	Batter	Right Hand Bat	Right-Arm Medium	6000000
+410	Lachlan Stackpole	New Zealand	Batter	Left Hand Bat	Right-Arm Medium	6000000
+411	Matthew Boyle	New Zealand	Batter	Left Hand Bat	Right-Arm Legspin	6000000
+412	Michael Rae	New Zealand	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+413	Tim Robinson	New Zealand	Batter	Right Hand Bat	Right-Arm Medium	6000000
+414	William O'Donnell	New Zealand	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+415	Mehran Khan	Oman	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+416	Mohammad Nadeem	Oman	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+417	Muhammad Imran	Oman	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+418	Munis Ansari	Oman	Bowler	Right Hand Bat	Right-Arm Medium	6000000
+419	Shakeel Ahmed	Oman	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+420	Aamir Ali Taheem	Pakistan	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+421	Aarish Ali Khan	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+422	Aashar Mehmood	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+423	Abbas Ali	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+424	Abdul Basit	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+425	Abdul Faseeh	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+426	Abdul Manaf	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+427	Abdul Rehman	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+428	Abdul Rehman Muzammil	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+429	Abdul Subhan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+430	Abdul Wahid	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+431	Abdul Wahid Bangalzai	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+432	Abdullah Fazal	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+433	Abdullah Zubair	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+434	Abu Huraira	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+435	Abubakar	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+436	Abubakar Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+437	Abuzar	Pakistan	Batter	Right Hand Bat	Right-Arm Medium	6000000
+438	Abuzar Tariq	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+439	Adil Amin	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+440	Adil Naz	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+441	Adnan Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+442	Afaq Afridi	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+443	Afaq Ahmed	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+444	Affan Ishaq	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+445	Afnan Khan	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+446	Aftab Ahmed	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+447	Aftab Ibrahim	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+448	Aftab Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+449	Afzaal Manzoor	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+450	Ahmad Hassan	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+451	Ahmar Ashfaq	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+452	Ahmed Bashir	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+453	Ahmed Hussain	Pakistan	All Rounder	Left Hand Bat	Right-arm Legspin	6000000
+454	Ahmed Khan	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+455	Ahmed Safi Abdullah	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+456	Aimal Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+457	Akhtar Mohammad	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+458	Ali Asfand	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+459	Ali Hamza Wasim	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+460	Ali Hassan Baloch	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+461	Ali Imran	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+462	Ali Majid	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+463	Ali Razzaq	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+464	Ali Shabbir	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+465	Ali Shan	Pakistan	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+466	Ali Usman	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+467	Ali Zaryab	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+468	Amad Butt	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+469	Aqib Ilyas	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+470	Aqib Junaid	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+471	Aqib Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+472	Aqib Liaqat	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+473	Aqib Shah	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+474	Arif Yaqoob	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+475	Arsal Sheikh	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+476	Arsalan Mehzood	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+477	Arshadullah	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+478	Asad Akhtar	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+479	Asad Malik	Pakistan	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+480	Asad Raza	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+481	Asfand Mehran	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+482	Ashiq Ali	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+483	Asif Ali Chandio	Pakistan	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+484	Asif Mehmood	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+485	Asim Ali	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+486	Asim Ali Nasir	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+487	Ataullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+488	Athar Mehmood	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+489	Atif Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+490	Atiq-ur-Rehman	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+491	Atizaz Habib Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+492	Attyab Ahmed	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+493	Awais Akram Minhas	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+494	Ayaz Gul	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+495	Ayaz Tasawar	Pakistan	Batter	Left Hand Bat	Right-arm Legspin	6000000
+496	Azam Khan	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+497	Azan Awais	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+498	Azaz Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+499	Bakhtiar Shah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+500	Bilawal	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+501	Bismillah Khan	Pakistan	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+502	Bohar Aman	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+503	Daniyal Ahmed	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+504	Daniyal Ali Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+505	Daniyal Hussain Rajput	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+506	Dawood Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+507	Ehsanullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+508	Fahad Amin	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+509	Fahad Hussain	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+510	Fahad Usman	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+511	Faham-ul-Haq	Pakistan	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+512	Faizan Riaz	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+513	Faizan Saleem	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+514	Faraz Aziz	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+515	Farhan Yousaf	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+516	Farmanullah Khan	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+517	Fawad Ali	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+518	Ghulam Haider	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+519	Ghulam Raza	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+520	Gulfam Aziz	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+521	Hafiz Mohammad Suleman	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+522	Hamad Islam	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+523	Hamesh Kumar	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+524	Hammad Butt	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+525	Hammad Siddique	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+526	Hamza Nazar	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+527	Hamza Zahoor	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+528	Haris Khan	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+529	Haroon Arshad	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+530	Haroon Sadaqat	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+531	Hasan Hafeez	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+532	Hasan Raza	Pakistan	Batter	Left Hand Bat	Right-Arm Medium Fast	6000000
+533	Haseeb-ur-Rehman	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+534	Hasnain Nadeem	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+535	Hasnain Shamir	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+536	Hayatullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+537	Humayun Altaf	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+538	Hunain Shah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+539	Huzaifa Ahsan	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+540	Huzaifa Ayub	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+541	Ibtisam Rehman	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+542	Imran Dogar	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+543	Imran Khan	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+544	Imran Rafiq	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+545	Intsar Ali	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+546	Israr Hussain	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+547	Israrullah	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+548	Jahanzaib Sultan	Pakistan	Batter	Left Hand Bat	Right-arm Legspin	6000000
+549	Jalat Khan	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+550	Jawad Ali	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+551	Jawad Imtiaz	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+552	Junaid Ali	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+553	Kaleem Dil	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+554	Kamran Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+555	Kashif Ali	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+556	Kashif Bhatti	Pakistan	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+557	Khalid Shah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+558	Khalid Usman	Pakistan	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+559	Khalil Ahmed	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+560	Khan Zeb	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+561	Khawaja Arham	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+562	Khawaja Mohammad Abdullah	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+563	Khayam Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+564	Khubaib Khalil	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+565	Maaz Khurram	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+566	Majid Ali	Pakistan	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+567	Malhar Rasool	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+568	Mansoor Ali	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+569	Mazhar Hussain	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+570	Mehran Mumtaz	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+571	Mehran Sanwal	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+572	Mehrooz Rasheed	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+573	Mirza Mamoon Imtiaz	Pakistan	Bowler	Right Hand Bat	Left-arm wrist spin	6000000
+574	Moeez Ghani	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+575	Mohammad Adil	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+576	Mohammad Afzal	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+577	Mohammad Ahsan	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+578	Mohammad Akram	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+579	Mohammad Alamgir	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+580	Mohammad Ali Taj	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+581	Mohammad Amir Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+582	Mohammad Ammar	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+583	Mohammad Arif	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+584	Mohammad Arsalan	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+585	Mohammad Asghar	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+586	Mohammad Awais Anwar	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+587	Mohammad Azab	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+588	Mohammad Basit	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+589	Mohammad Bilal	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+590	Mohammad Faiq	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+591	Mohammad Faizan	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+592	Mohammad Faizan Zafar	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+593	Mohammad Farooq	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+594	Mohammad Hammad Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+595	Mohammad Hamza	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+596	Mohammad Huraira	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+597	Mohammad Huzaifa	Pakistan	Bowler	Left Hand Bat	Left-arm wrist spin	6000000
+598	Mohammad Ibrahim Snr	Pakistan	Bowler	Right Hand Bat	Not Applicable	6000000
+599	Mohammad Ibtisam	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+600	Mohammad Idrees	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+601	Mohammad Ilyas Khan	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+602	Mohammad Imran Jnr	Pakistan	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+603	Mohammad Irfan	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+604	Mohammad Ismail	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+605	Mohammad Jamshed	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+606	Mohammad Javed	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+607	Mohammad Junaid	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+608	Mohammad Kashif	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+609	Mohammad Mohsin	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+610	Mohammad Mohsin Khan	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+611	Mohammad Nadeem	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+612	Mohammad Naveed	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+613	Mohammad Qaiser	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+614	Mohammad Rameez Jnr	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+615	Mohammad Raza	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+616	Mohammad Sadaqat	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+617	Mohammad Saleem	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+618	Mohammad Salman	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+619	Mohammad Sarwar Afridi	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+620	Mohammad Sayyam	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+621	Mohammad Shahbaz	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+622	Mohammad Shahid	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+623	Mohammad Shan	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+624	Mohammad Shayan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+625	Mohammad Shayan Saad	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+626	Mohammad Sheharyar	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+627	Mohammad Sikandar	Pakistan	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+628	Mohammad Sudais	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+629	Mohammad Suleman	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+630	Mohammad Taha	Pakistan	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+631	Mohammad Tariq Khan	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+632	Mohammad Touqeer	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+633	Mohammad Umair	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+634	Mohammad Usman	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+635	Mohammad Usman Rahim	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+636	Mohammad Waheed	Pakistan	Bowler	Left Hand Bat	Not Applicable	6000000
+637	Mohammad Waleed	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+638	Mohammad Wasim Khan	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+639	Mohammad Younis	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+640	Mohammad Zahid	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+641	Mohammad Zeeshan	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+642	Mohammad Zulkifal	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+643	Mohib Bhatti	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+644	Mohsin Raza	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+645	Mohsin Riaz	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+646	Momin Qamar	Pakistan	Bowler	Left Hand Bat	Left-arm wrist spin	6000000
+647	Mudasar Zunair	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+648	Muhammad Akhlaq	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+649	Muhammad Amir Barki	Pakistan	Batter	Right Hand Bat	Right-Arm Medium	6000000
+650	Muhammad Awais Zafar	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+651	Muhammad Ghazi Ghori	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+652	Muhammad Ilyas	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+653	Muhammad Imran	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+654	Muhammad Riazullah	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+655	Muhammad Sadam	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+656	Muhammad Shahzad	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+657	Muhammad Umar	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+658	Mujtaba Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+659	Mushtaq Ahmed	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+660	Mustafa Nasir	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+661	Nabi Gul	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+662	Nadeem Ahmed	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+663	Nadeem Khalil	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+664	Najab Khan	Pakistan	Bowler	Right Hand Bat	Right-arm Legspin	6000000
+665	Najaf Ali	Pakistan	Bowler	Left Hand Bat	Right-arm Legspin	6000000
+666	Najeebullah Achakzai	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+667	Naqeebullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+668	Naseerullah Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+669	Nasir Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+670	Naveed Ahmed Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+671	Nehal Qureshi	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+672	Niaz Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+673	Niqab Shafiq	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+674	Nisar Ahmad	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+675	Noman Ali	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+676	Noman Khan	Pakistan	All Rounder	Right Hand Bat	Right-arm Legspin	6000000
+677	Nusratullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+678	Obaid Shahid	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+679	Pervaiz Ahmed	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+680	Qutabuddin	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+681	Raees Ahmed	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+682	Rafay Rana	Pakistan	Batter	Left Hand Bat	Right-Arm Medium Fast	6000000
+683	Raja Hamza Waheed	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+684	Rameez Aziz	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+685	Rana Burhan Basharat	Pakistan	Batter	Right Hand Bat	Slow left-arm orthodox	6000000
+686	Rasool Bakash	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+687	Razaullah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+688	Rehan Afridi	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+689	Rehman Ghani	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+690	Rewayat Khan	Pakistan	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+691	Rizwan Ali	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+692	Rizwan Mehmood	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+693	Saad Ali	Pakistan	Batter	Left Hand Bat	Right-Arm Medium	6000000
+694	Saad Asif	Pakistan	Bowler	Left Hand Bat	Left-arm wrist spin	6000000
+695	Saad Bin Athar	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+696	Saad Khan	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+697	Sabit Ali	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+698	Saeed Ali	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+699	Saifullah Bangash	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+700	Saifullah Khan	Pakistan	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+701	Sajjad Ali	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+702	Sajjad Ibraheem	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+703	Sajjad Khan	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+704	Salahuddin	Pakistan	Bowler	Right Hand Bat	Not Applicable	6000000
+705	Saleem Mal	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+706	Salman Hasan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+707	Salman Khan Jnr	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+708	Samama Riaz	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+709	Sameen Gul	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+710	Sameer Minhas	Pakistan	Batter	Right Hand Bat	Right-arm Legspin	6000000
+711	Sameer Saqib	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+712	Saqib Khan	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+713	Saqlain Nawaz	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+714	Sarmad Bhatti	Pakistan	Batter	Left Hand Bat	Right-Arm Medium Fast	6000000
+715	Shah Raza Naqvi	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+716	Shahab Khan	Pakistan	All Rounder	Left Hand Bat	Left-Arm Medium Fast	6000000
+717	Shahbaz Javed	Pakistan	Wicketkeeper Batter	Right Hand Bat	Not Applicable	6000000
+718	Shahbaz Khan	Pakistan	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+719	Shahid Ali	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+720	Shahid Aziz	Pakistan	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+721	Shahzaib Aziz	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+722	Shahzaib Khan	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+723	Sharoon Siraj	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+724	Shayan Sheikh	Pakistan	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+725	Shehzad Gul	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+726	Shoaib Akhtar Jnr	Pakistan	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+727	Shujah Zaheer	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+728	Sirajuddin	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+729	Syed Ameer Abdullah	Pakistan	Batter	Right Hand Bat	Left-Arm Medium Fast	6000000
+730	Syed Mohammad Tayyab Abbas	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+731	Tahir Hussain	Pakistan	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+732	Taimur Ali	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+733	Taimur Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+734	Ubaid Shah	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+735	Ubaidullah	Pakistan	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+736	Umair Badshah	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+737	Umair Riaz	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+738	Umar Hayat	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+739	Umar Siddiq	Pakistan	Wicketkeeper Batter	Left Hand Bat	Not Applicable	6000000
+740	Umar Zaib	Pakistan	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+741	Usman Iqbal	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+742	Usman Khalid	Pakistan	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+743	Usman Khan	Pakistan	Batter	Left Hand Bat	Right-arm Legspin	6000000
+744	Usman Yousaf	Pakistan	All Rounder	Right Hand Bat	Right-arm Legspin	6000000
+745	Uzair Mumtaz	Pakistan	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+746	Waqar Ahmed	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+747	Waqar Hussain	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+748	Waris Ali	Pakistan	All Rounder	Right Hand Bat	Right-arm Legspin	6000000
+749	Yahya Bin Abdul Rehman	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+750	Yasir Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+751	Yasir Khan	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+752	Zain Abbas	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+753	Zain Ishaq	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+754	Zain-ul-Abidin	Pakistan	Batter	Left Hand Bat	Not Applicable	6000000
+755	Zeeshan Ali	Pakistan	Batter	Right Hand Bat	Not Applicable	6000000
+756	Zeeshan Ashraf	Pakistan	Wicketkeeper Batter	Left Hand Bat	Not Applicable	6000000
+757	Ziad Khan	Pakistan	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+758	Zubair Khan	Pakistan	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+759	Hamza Khan	Rwanda	Batter	Right Hand Bat	Right-Arm Medium	6000000
+760	Muhammad Nadir	Rwanda	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+761	Brandon McMullen	Scotland	Batter	Right Hand Bat	Right-Arm Medium	6000000
+762	George Munsey	Scotland	Wicketkeeper Batter	Left Hand Bat	Right-Arm Medium Fast	6000000
+763	Jasper Davidson	Scotland	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+764	Mark Watt	Scotland	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+765	Michael Leask	Scotland	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+766	Richard Berrington	Scotland	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+767	Safyaan Sharif	Scotland	Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+768	Andile Phethlukwayo	South Africa	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+769	Codi Yusuf	South Africa	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+770	Connor Esterhuizen	South Africa	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+771	Daryn Dupavillon	South Africa	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+772	Delano Potgieter	South Africa	Batter	Left Hand Bat	Right-Arm Medium Fast	6000000
+773	Duan Jensen	South Africa	All Rounder	Right Hand Bat	Left-Arm Fast	6000000
+774	Jacques Snyman	South Africa	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+775	Jordan Hermann	South Africa	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+776	Junior Dala	South Africa	All Rounder	Right Hand Bat	Right-Arm Fast	6000000
+777	Keagan Lion Cachet	South Africa	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+778	Lutho Sipamla	South Africa	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+779	Prenelan Subrayen	South Africa	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+780	Raynard Van Tonder	South Africa	Batter	Right Hand Bat	Right-Arm Medium	6000000
+781	Wihan Lubbe	South Africa	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+782	Ashen Bandara	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+783	Chamika Karunaratne	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+784	Dhananjaya Lakshan	Sri Lanka	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+785	Dunith Wellalage	Sri Lanka	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+786	Garuka Sanketh	Sri Lanka	Bowler	Left Hand Bat	Right-Arm Fast	6000000
+787	Jeffrey Vandersay	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Legspin	6000000
+788	Kasun Rajitha	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+789	Kavishka Anjula	Sri Lanka	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+790	Lahiru Kumara	Sri Lanka	Bowler	Left Hand Bat	Right-Arm Fast	6000000
+791	Lahiru Milantha	Sri Lanka	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	6000000
+792	Lahiru Samarakoon	Sri Lanka	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+793	Lahiru Udara	Sri Lanka	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+794	Milan Rathnayake	Sri Lanka	Bowler	Left Hand Bat	Right-Arm Medium Fast	6000000
+795	Minod Bhanuka	Sri Lanka	Wicketkeeper Batter	Left Hand Bat	Right-Arm Offspin	6000000
+796	Mohamed Dilshad	Sri Lanka	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+797	Mohamed Shiraz	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+798	Nipun Ranshika	Sri Lanka	Bowler	Left Hand Bat	Right-Arm Fast	6000000
+799	Nuwanidu Fernando	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+800	Pavan Rathnayake	Sri Lanka	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+801	Ramesh Mendis	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+802	Sachitha Jayathilake	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+803	Sadeera Samarawickrama	Sri Lanka	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+804	Sahan Arachchige	Sri Lanka	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+805	Sangeeth Cooray	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+806	Sonal Dinusha	Sri Lanka	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+807	Thanuka Dabare	Sri Lanka	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+808	Tharindu Rathnayake	Sri Lanka	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+809	Traveen Mathew	Sri Lanka	Bowler	Right Hand Bat	Right-Arm Offspin	6000000
+810	Vishen Halambage	Sri Lanka	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+811	Riazat Ali Shah	Uganda	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+812	Aayan Afzal Khan	United Arab Emirates	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+813	Abdul Ghaffar	United Arab Emirates	All Rounder	Left Hand Bat	Left-Arm Medium Fast	6000000
+814	Alishan Sharafu	United Arab Emirates	Batter	Right Hand Bat	Right-Arm Medium	6000000
+815	Aryan Lakra	United Arab Emirates	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+816	Awais Ahmed	United Arab Emirates	Bowler	Right Hand Bat	Left-Arm Fast	6000000
+817	Basil Hameed	United Arab Emirates	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+818	Farhan Khan	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+819	Hafeez Rehman	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+820	Haider Ali	United Arab Emirates	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+821	Haider Razzaq	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+822	Ibrar Ahmad	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+823	Ihtisham Ul Haq	United Arab Emirates	Batter	Right Hand Bat	Right-Arm Fast	6000000
+824	Junaid Siddique	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+825	Khuzaima Bin Tanveer	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+826	Luqman Faisal	United Arab Emirates	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+827	Mohammad Farooq	United Arab Emirates	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+828	Muhammad Jawadullah	United Arab Emirates	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+829	Muhammad Kamran Atta	United Arab Emirates	Wicketkeeper Batter	Right Hand Bat	Right-Arm Offspin	6000000
+830	Muhammad Mohsin	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+831	Raees Ahmed	United Arab Emirates	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+832	Rahul Bhatia	United Arab Emirates	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+833	Rohan Mustafa	United Arab Emirates	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+834	Sabir Ali	United Arab Emirates	Bowler	Right Hand Bat	Left-Arm Medium Fast	6000000
+835	Said Khalid Shah	United Arab Emirates	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+836	Shahid Iqbal Bhutta	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+837	Syed Muhammad Haider Shah	United Arab Emirates	Wicketkeeper Batter	Right Hand Bat	Right-Arm Legspin	6000000
+838	Uzair Khan	United Arab Emirates	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+839	Wasim Akram	United Arab Emirates	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+840	Zahid Ali	United Arab Emirates	All Rounder	Right Hand Bat	Right-Arm Fast	6000000
+841	Zahoor Khan	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+842	Zawar Farid	United Arab Emirates	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+843	Zohair Iqbal	United Arab Emirates	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+844	Ali Khan	United States of America	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+845	Ali Sheikh	United States of America	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+846	Ehsan Adil	United States of America	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+847	Hammad Azam	United States of America	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+848	Heath Richards	United States of America	Batter	Right Hand Bat	Right-Arm Medium	6000000
+849	Mohammad Mohsin	United States of America	All Rounder	Left Hand Bat	Right-Arm Legspin	6000000
+850	Nitish Kumar	United States of America	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+851	Nosthush Kenjige	United States of America	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+852	Rushil Ugarkar	United States of America	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+853	Saif Badar	United States of America	All Rounder	Right Hand Bat	Right-Arm Legspin	6000000
+854	Saiteja Mukkamalla	United States of America	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+855	Shayan Jahangir	United States of America	Wicketkeeper Batter	Right Hand Bat	Right-Arm Medium Fast	6000000
+856	Shubham Ranjane	United States of America	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+857	Steven Taylor	United States of America	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+858	Akeem Jordan	West Indies	Bowler	Right Hand Bat	Right-Arm Fast	6000000
+859	Amari Goodridge	West Indies	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+860	Ashmead Nedd	West Indies	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+861	Carlos Brathwaite	West Indies	All Rounder	Right Hand Bat	Right-Arm Medium	6000000
+862	Chadwick Walton	West Indies	Batter	Right Hand Bat	Right-Arm Medium	6000000
+863	Chandrapaul Hemraj	West Indies	Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+864	Hayden Walsh	West Indies	Bowler	Left Hand Bat	Slow left-arm wrist spin	6000000
+865	Javelle Glenn	West Indies	Batter	Left Hand Bat	Right-Arm Legspin	6000000
+866	Jomel Warrican	West Indies	Bowler	Right Hand Bat	Slow left-arm orthodox	6000000
+867	Jordan Johnson	West Indies	Batter	Left Hand Bat	Right-Arm Legspin	6000000
+868	Joshua Bishop	West Indies	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+869	Joshua Dorne	West Indies	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+870	Jyd Goolie	West Indies	All Rounder	Left Hand Bat	Right-Arm Offspin	6000000
+871	Kemol Savory	West Indies	Wicketkeeper Batter	Left Hand Bat	Slow left-arm orthodox	6000000
+872	Kennar Lewis	West Indies	Batter	Right Hand Bat	Right-Arm Medium	6000000
+873	Kevin Wickham	West Indies	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+874	Khary Pierre	West Indies	Bowler	Left Hand Bat	Slow left-arm orthodox	6000000
+875	Kjorn Ottley	West Indies	Batter	Left Hand Bat	Right-Arm Medium	6000000
+876	Kofi James	West Indies	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+877	Leonardo Julien	West Indies	Wicketkeeper Batter	Left Hand Bat	Left-Arm Medium Fast	6000000
+878	McKenny Clarke	West Indies	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+879	Mikyle Louis	West Indies	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+880	Nathan Edward	West Indies	All Rounder	Left Hand Bat	Left-Arm Fast	6000000
+881	Obed Mccoy	West Indies	Bowler	Left Hand Bat	Left-Arm Medium	6000000
+882	Oshane Thomas	West Indies	Batter	Right Hand Bat	Right-Arm Fast	6000000
+883	Quentin Sampson	West Indies	All Rounder	Right Hand Bat	Right-Arm Medium Fast	6000000
+884	Ramon Simmonds	West Indies	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+885	Raymon Reifer	West Indies	All Rounder	Left Hand Bat	Left-Arm Fast	6000000
+886	Ronsford Beaton	West Indies	Batter	Right Hand Bat	Right-Arm Medium	6000000
+887	Ryshon Williams	West Indies	All Rounder	Right Hand Bat	Slow left-arm orthodox	6000000
+888	Shadrack Descarte	West Indies	All Rounder	Left Hand Bat	Right-Arm Medium Fast	6000000
+889	Shamar Springer	West Indies	All Rounder	Right Hand Bat	Right-Arm Fast	6000000
+890	Shamarh Brooks	West Indies	Batter	Right Hand Bat	Right-Arm Offspin	6000000
+891	Shaqkere Parris	West Indies	Batter	Right Hand Bat	Right-Arm Medium	6000000
+892	Sheldon Cottrell	West Indies	Bowler	Right Hand Bat	Left-Arm Fast	6000000
+893	Terrance Hinds	West Indies	Bowler	Right Hand Bat	Right-Arm Medium Fast	6000000
+894	Yannic Cariah	West Indies	All Rounder	Left Hand Bat	Right-Arm Legspin	6000000
+895	Brad Evans	Zimbabwe	All Rounder	Right Hand Bat	Right-Arm Fast	6000000
+896	Brian Bennett	Zimbabwe	All Rounder	Right Hand Bat	Right-Arm Offspin	6000000
+897	Craig Ervine	Zimbabwe	Batter	Left Hand Bat	Right-Arm Offspin	6000000
+898	Dion Myers	Zimbabwe	Batter	Right Hand Bat	Right-Arm Medium	6000000
+899	Faraz Akram	Zimbabwe	All Rounder	Left Hand Bat	Right-Arm Medium	6000000
+900	Nick Welch	Zimbabwe	Batter	Right Hand Bat	Right-Arm Legspin	6000000
+901	Richard Ngarava	Zimbabwe	Bowler	Left Hand Bat	Left-Arm Medium Fast	6000000
+902	Sean Williams	Zimbabwe	All Rounder	Left Hand Bat	Slow left-arm orthodox	6000000
+903	Tinotenda Maposa Maposa	Zimbabwe	All Rounder	Right Hand Bat	Right-Arm Fast	6000000

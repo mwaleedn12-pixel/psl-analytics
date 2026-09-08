@@ -1,4 +1,4 @@
-"""PSL Analytics — Clean 7-Section Navigation"""
+"""PSL Analytics — Consolidated 5-Section Navigation"""
 import streamlit as st
 import sys, runpy
 from pathlib import Path
@@ -7,12 +7,19 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-st.set_page_config(page_title="PSL Analytics", page_icon="🏏", layout="wide")
+st.set_page_config(page_title="PSL Analytics", page_icon="🏏", layout="wide", initial_sidebar_state="expanded")
+
+st.markdown("""
+<style>
+[data-testid="stSidebar"] { min-width: 280px !important; max-width: 320px !important; }
+[data-testid="collapsedControl"] { display: none !important; }
+section[data-testid="stSidebar"] { display: flex !important; }
+</style>
+""", unsafe_allow_html=True)
 
 from dashboard.components.style import inject_custom_css
 inject_custom_css()
 
-# ── Sidebar Logo ──
 st.sidebar.markdown("""
 <div style="text-align:center; padding: 10px 0 5px 0;">
     <span style="font-size: 1.8rem;">🏏</span>
@@ -22,40 +29,64 @@ st.sidebar.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ── 7 Main Sections ──
+# ═══════════════════════════════════════════════════════════
+# 5 CLEAN SECTIONS — merged, no clutter
+# ═══════════════════════════════════════════════════════════
+
 SECTIONS = {
-    "🏠 Overview":       ["Overview", "Search", "AI Insights"],
-    "👤 Players":        ["Player Profile", "Player Analytics", "Player Form", "Player Rankings", "Player Comparison", "Auction Value"],
-    "👥 Teams":          ["Team Profile", "Team Analytics", "Home vs Away", "Optimal XI"],
-    "📋 Matches":        ["Match Explorer", "Match Intelligence", "Match Predictor", "Match Simulator"],
-    "📊 Analytics":      ["Phase Analytics", "Powerplay Deep", "Death Overs Deep", "Venue Intelligence", "Chase Defence", "Dismissals", "Partnerships", "Fielding", "Clutch Pressure"],
-    "⚔️ Matchups":       ["Matchups", "H2H Deep Dive"],
-    "🏆 Tournaments":    ["Season Explorer", "Season Comparison", "Season Awards", "PSL History", "Playoffs", "Super Overs", "Records", "Leaderboard"],
+    "📊 Overview": [
+        "Dashboard",          # Home + Search + AI Insights merged
+    ],
+    "🏏 Players": [
+        "Player Hub",         # Profile + Form + Rankings + Analytics + Auction Value + Comparison
+        "Leaderboard",        # Orange/Purple cap + records
+        "Similarity Finder",  # Player similarity
+    ],
+    "📈 Match Analysis": [
+        "Match Centre",       # Match Explorer + Intelligence
+        "Innings & Phases",   # Phase Analytics + Powerplay + Death
+        "Venue & Conditions", # Venue + Chase/Defend + Toss
+        "Partnerships",       # Partnerships + Fielding + Dismissals
+        "Matchups & H2H",     # Matchups + H2H Deep Dive
+        "Predictions",        # Win Predictor + What-If + Simulator
+        "Clutch & Pressure",  # Clutch + Turning Points
+    ],
+    "⚔️ Teams & Seasons": [
+        "Team Hub",           # Team Profile + Analytics + Home/Away + Optimal XI
+        "Season Explorer",    # Season + Comparison + Awards
+        "PSL History",        # History + Playoffs + Super Overs + Records
+    ],
+    "🏗️ Auction Room": [
+        "Squad Builder",      # Squad analysis + AI draft
+        "Coach Room",         # Retention + Worth + Alternatives
+    ],
 }
 
-# Page file mapping
+# Each merged page maps to a loader that runs sub-pages via tabs
 PAGE_FILES = {
-    "Overview": "0_Overview", "Search": "31_Search", "AI Insights": "32_AI_Insights",
-    "Player Profile": "23_Player_Profile", "Player Analytics": "1_Player_Analytics",
-    "Player Form": "6_Player_Form", "Player Rankings": "33_Player_Rankings",
-    "Player Comparison": "12_Player_Comparison", "Auction Value": "34_Auction_Value",
-    "Team Profile": "16_Team_Profile", "Team Analytics": "2_Team_Analytics",
-    "Home vs Away": "27_Home_Away", "Optimal XI": "13_Optimal_XI",
-    "Match Explorer": "21_Match_Explorer", "Match Intelligence": "7_Match_Intelligence",
-    "Match Predictor": "10_Match_Predictor", "Match Simulator": "35_Match_Simulator",
-    "Phase Analytics": "5_Phase_Analytics", "Powerplay Deep": "28_Powerplay_Deep",
-    "Death Overs Deep": "29_Death_Deep", "Venue Intelligence": "4_Venue_Intelligence",
-    "Chase Defence": "17_Chase_Defence", "Dismissals": "18_Dismissals",
-    "Partnerships": "19_Partnerships", "Fielding": "20_Fielding",
-    "Clutch Pressure": "9_Clutch_Pressure",
-    "Matchups": "3_Matchups", "H2H Deep Dive": "36_H2H_Deep",
-    "Season Explorer": "15_Season_Explorer", "Season Comparison": "24_Season_Comparison",
-    "Season Awards": "11_Season_Awards", "PSL History": "26_PSL_History",
-    "Playoffs": "30_Playoffs", "Super Overs": "25_Super_Overs",
-    "Records": "14_Records", "Leaderboard": "22_Leaderboard",
+    # Overview
+    "Dashboard": "40_Dashboard",
+    # Players
+    "Player Hub": "41_Player_Hub",
+    "Leaderboard": "22_Leaderboard",
+    "Similarity Finder": "12_Player_Comparison",
+    # Match Analysis
+    "Match Centre": "42_Match_Centre",
+    "Innings & Phases": "43_Innings_Phases",
+    "Venue & Conditions": "44_Venue_Conditions",
+    "Partnerships": "45_Partnerships",
+    "Matchups & H2H": "46_Matchups",
+    "Predictions": "47_Predictions",
+    "Clutch & Pressure": "9_Clutch_Pressure",
+    # Teams & Seasons
+    "Team Hub": "48_Team_Hub",
+    "Season Explorer": "49_Season_Hub",
+    "PSL History": "50_PSL_History",
+    # Auction Room
+    "Squad Builder": "37_Squad_Builder",
+    "Coach Room": "39_Coach_Room",
 }
 
-# ── Navigation ──
 section = st.sidebar.selectbox("", list(SECTIONS.keys()), label_visibility="collapsed")
 sub_pages = SECTIONS[section]
 page = st.sidebar.selectbox("", sub_pages, label_visibility="collapsed")
@@ -63,6 +94,5 @@ page = st.sidebar.selectbox("", sub_pages, label_visibility="collapsed")
 st.sidebar.markdown("---")
 st.sidebar.caption("357 Matches • 83,799 Balls • 11 Seasons")
 
-# ── Load Page ──
 page_file = str(Path(__file__).parent / "views" / (PAGE_FILES[page] + ".py"))
 runpy.run_path(page_file, run_name="__main__")
